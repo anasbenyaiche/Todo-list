@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  justify-content: space-between;
+}
+.add-todo-container{
+  flex:1;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid gray;
+}
+
+.todo-list-container{
+  flex: 1;
+  border: 2px solid black;
+  height: 100vh;
+}
